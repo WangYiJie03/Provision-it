@@ -1,4 +1,4 @@
-
+<h1 align="center">
   <img src="frontend/Icons/pvit90.png" width="150px"/><br/>
   Fractionalized Real-World Assets Database Schema
 </h1>
