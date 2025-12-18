@@ -21,14 +21,43 @@ to support authentication, asset management, trading, and portfolio operations.
 
 ## My Role & Contribution
 
-In this project, I primarily worked on backend development, including:
+I worked as a backend-focused developer in this client-based Agile project, with responsibilities spanning
+database design, API development, and frontend-backend integration.
 
-- Designing and implementing RESTful APIs using Flask and SQLAlchemy
-- Implementing authentication and role-based authorization
-- Designing and iterating PostgreSQL database schemas
-- Writing unit and integration tests using pytest
-- Participating in Agile workflows including sprint planning, stand-ups,
-  pull requests, and code reviews
+### Backend & Database Design
+- Contributed to early system design decisions around fractional asset modelling, proposing a fixed-unit
+  fraction approach (instead of percentage-based ownership) to simplify valuation, aggregation, and
+  transaction consistency.
+- Designed and implemented the AssetValueHistory table to support historical valuation tracking and
+  manual price adjustments by administrators, including audit fields such as timestamp, source,
+  adjusted_by, and adjustment_reason.
+
+### API Development & Business Logic
+- Implemented RESTful APIs using Flask and SQLAlchemy to support asset valuation history queries and
+  administrator price updates.
+- Built read-only portfolio APIs for user holdings and transaction history:
+  - `GET /users/<user_id>/fractions/owning` to aggregate user holdings by asset, including latest value and
+    estimated portfolio value.
+  - `GET /users/<user_id>/transactions` with asset filtering and pagination, returning transactions in
+    reverse chronological order.
+- Implemented backend service logic for valuation calculations, transaction aggregation, and structured
+  JSON responses for frontend consumption.
+
+### Frontend Integration & Testing
+- Integrated backend APIs with frontend HTML/JavaScript pages to display asset valuation history,
+  user holdings, and transaction records.
+- Wrote and executed integration tests using pytest to validate API correctness and data consistency.
+- Assisted with local environment setup, database initialization, and data import workflows
+  (init_db_postgres.py, environment configuration, and troubleshooting).
+
+### Collaboration & Engineering Practices
+- Actively participated in Agile workflows including sprint planning, stand-ups, pull requests, and
+  code reviews.
+- Submitted pull requests with detailed descriptions and responded quickly to feedback, fixing issues
+  during integration testing on the same day.
+- Contributed to project documentation by adding setup notes, common errors, and troubleshooting
+  guidance to improve developer onboarding.
+
 
 ## Tech Stack
 
