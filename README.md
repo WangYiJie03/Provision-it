@@ -1,4 +1,4 @@
-<img width="2139" height="1379" alt="image" src="https://github.com/user-attachments/assets/453a8f68-a1b2-462c-a36a-5dedcb188877" /><h1 align="center">
+
   <img src="frontend/Icons/pvit90.png" width="150px"/><br/>
   Fractionalized Real-World Assets Database Schema
 </h1>
