@@ -1,7 +1,43 @@
-<h1 align="center">
+<img width="2139" height="1379" alt="image" src="https://github.com/user-attachments/assets/453a8f68-a1b2-462c-a36a-5dedcb188877" /><h1 align="center">
   <img src="frontend/Icons/pvit90.png" width="150px"/><br/>
   Fractionalized Real-World Assets Database Schema
 </h1>
+# Provision-IT – Backend Service (Personal Showcase)
+
+This repository is my personal showcase version of a University of Melbourne
+client-based Agile team project (COMP30022).
+
+The original team final delivery repository can be found here:
+https://github.com/Evelyn-0yi/Provision-it
+
+## Project Overview
+
+Provision-IT is a fractional asset ownership platform that allows users to
+browse assets, purchase fractions, manage portfolios, and track asset value
+history.
+
+The backend service is built with Flask and PostgreSQL, exposing RESTful APIs
+to support authentication, asset management, trading, and portfolio operations.
+
+## My Role & Contribution
+
+In this project, I primarily worked on backend development, including:
+
+- Designing and implementing RESTful APIs using Flask and SQLAlchemy
+- Implementing authentication and role-based authorization
+- Designing and iterating PostgreSQL database schemas
+- Writing unit and integration tests using pytest
+- Participating in Agile workflows including sprint planning, stand-ups,
+  pull requests, and code reviews
+
+## Tech Stack
+
+- Backend: Python, Flask, SQLAlchemy
+- Database: PostgreSQL
+- Testing: pytest
+- Tools: Git, GitHub, Agile workflow
+
+The rest of this repository contains the full team delivery for technical context.
 
 This project implements a proof-of-concept schema and system for **fractionalised ownership of real-world assets**.
 It supports asset creation, fraction trading, valuation tracking, and historical ledger views.
