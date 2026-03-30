@@ -2,13 +2,17 @@
   <img src="frontend/Icons/pvit90.png" width="150px"/><br/>
   Fractionalized Real-World Assets Database Schema
 </h1>
-# Provision-IT – Backend Service (Personal Showcase)
 
-This repository is my personal showcase version of a University of Melbourne
-client-based Agile team project (COMP30022).
+## My Contributions
 
-The original team final delivery repository can be found here:
-https://github.com/Evelyn-0yi/Provision-it
+This project was developed as part of a team of 5.
+
+My main contributions included:
+
+- Designed and implemented RESTful backend APIs for portfolio aggregation and transaction history queries
+- Built PostgreSQL schema and data models to support historical asset valuation tracking and audit-safe updates
+- Developed backend service logic using Flask and SQLAlchemy
+- Contributed to integration testing and collaborated in Agile team workflows, including pull request reviews and sprint stand-ups
 
 ## Project Overview
 
