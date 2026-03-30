@@ -2,6 +2,11 @@
   <img src="frontend/Icons/pvit90.png" width="150px"/><br/>
   Provision-IT – Backend Service (Team Project Showcase)
 </h1>
+## Project Overview
+
+Provision-IT is a fractional asset ownership platform that allows users to browse assets, purchase fractions, manage portfolios, and track historical asset valuations.
+
+The backend service is built with Flask and PostgreSQL, exposing RESTful APIs to support authentication, asset management, trading workflows, and portfolio operations.
 
 ## My Contributions
 
@@ -13,15 +18,6 @@ My main contributions included:
 - Built PostgreSQL schema and data models to support historical asset valuation tracking and audit-safe updates
 - Developed backend service logic using Flask and SQLAlchemy
 - Contributed to integration testing and collaborated in Agile team workflows, including pull request reviews and sprint stand-ups
-
-## Project Overview
-
-Provision-IT is a fractional asset ownership platform that allows users to
-browse assets, purchase fractions, manage portfolios, and track asset value
-history.
-
-The backend service is built with Flask and PostgreSQL, exposing RESTful APIs
-to support authentication, asset management, trading, and portfolio operations.
 
 ## Detailed Contribution Breakdown
 
