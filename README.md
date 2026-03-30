@@ -1,6 +1,6 @@
 <h1 align="center">
   <img src="frontend/Icons/pvit90.png" width="150px"/><br/>
-  Fractionalized Real-World Assets Database Schema
+  Provision-IT – Backend Service (Team Project Showcase)
 </h1>
 
 ## My Contributions
